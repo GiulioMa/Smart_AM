@@ -1,0 +1,80 @@
+{
+    "input_features": [
+        "Z",
+        "Wall",
+        "Overhang",
+        "NoLines",
+        "Power",
+        "d_edge_right",
+        "d_edge_left",
+        "d_over_left",
+        "d_over_right",
+        "d_col",
+        "d_over_z",
+        "prev_Wall",
+        "prev_Overhang",
+        "prev_NoLines",
+        "prev_Power",
+        "prev_d_edge_right",
+        "prev_d_edge_left",
+        "prev_d_over_left",
+        "prev_d_over_right",
+        "prev_d_col",
+        "prev_d_over_z"
+    ],
+    "target_variables": [
+        "medianMLength90",
+        "meanNumPixels90",
+        "meanLineIntensity"
+    ],
+    "val_scores": [
+        2723669597.8449807,
+        2418846433.4231257,
+        2768771045.9771285,
+        2348258349.2147393,
+        2723844054.688691
+    ],
+    "r2_scores_all": [
+        [
+            0.5782922804355621,
+            0.47683215141296387,
+            0.6789844930171967
+        ],
+        [
+            0.5635716319084167,
+            0.6140953004360199,
+            0.7411091923713684
+        ],
+        [
+            0.5054861307144165,
+            0.5093842446804047,
+            0.6667306125164032
+        ],
+        [
+            0.5926932692527771,
+            0.515324056148529,
+            0.7048238813877106
+        ],
+        [
+            0.5590801537036896,
+            0.52049919962883,
+            0.6939063966274261
+        ]
+    ],
+    "average_mse": 2596677896.2297335,
+    "mse_std": 176210372.46961194,
+    "average_r2_by_target": {
+        "medianMLength90": {
+            "mean": 0.5598246932029725,
+            "std": 0.029626570276649132
+        },
+        "meanNumPixels90": {
+            "mean": 0.5272269904613495,
+            "std": 0.04602401475819551
+        },
+        "meanLineIntensity": {
+            "mean": 0.697110915184021,
+            "std": 0.025523076433061433
+        }
+    }
+}

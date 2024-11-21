@@ -1,0 +1,67 @@
+{
+    "input_features": [
+        "Z",
+        "Wall",
+        "Overhang",
+        "NoLines",
+        "Power",
+        "d_edge_right",
+        "d_edge_left",
+        "d_over_left",
+        "d_over_right",
+        "d_col",
+        "d_over_z",
+        "prev_medianMLength15",
+        "prev_medianMLength30",
+        "prev_medianMLength60",
+        "prev_meanNumPixels15",
+        "prev_meanNumPixels30",
+        "prev_meanNumPixels60",
+        "prev_meanLineIntensity"
+    ],
+    "target_variables": [
+        "medianMLength30",
+        "meanLineIntensity"
+    ],
+    "val_scores": [
+        3589306641.890724,
+        3711765458.134689,
+        3446234957.743329,
+        3107935172.797967,
+        3327955018.815756
+    ],
+    "r2_scores_all": [
+        [
+            0.5572255849838257,
+            0.717971920967102
+        ],
+        [
+            0.6116056144237518,
+            0.7351506650447845
+        ],
+        [
+            0.5491408705711365,
+            0.7234565615653992
+        ],
+        [
+            0.5801006555557251,
+            0.7395540773868561
+        ],
+        [
+            0.5810005366802216,
+            0.7506786286830902
+        ]
+    ],
+    "average_mse": 3436639449.8764925,
+    "mse_std": 209261784.86935166,
+    "average_r2_by_target": {
+        "medianMLength30": {
+            "mean": 0.5758146524429322,
+            "std": 0.021832545641135227
+        },
+        "meanLineIntensity": {
+            "mean": 0.7333623707294464,
+            "std": 0.011630812667123326
+        }
+    }
+}
